@@ -16,7 +16,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      - name: Run Formatter
+      - name: Run Crawler
+        if: false # At the moment, this is deactivated as the action runs too long.
         run: |
           npm install
           npm run start
