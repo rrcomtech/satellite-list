@@ -14,3 +14,14 @@ A list of all satellites in a comprehensive .csv format.
 ```
 
 The data originates from [N2YO](https://n2yo.com).
+
+## Running the Script Yourself
+
+```bash
+npm install
+npm run start
+```
+
+**This script runs for up to 2 days!**
+
+When it is done, you will have a file called `satellites.csv` in the root of the repository that contains up-to-date data with the most recent list of satellites.
